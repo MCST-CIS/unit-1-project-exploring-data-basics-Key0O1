@@ -75,7 +75,7 @@ winpercent=(wins*100)/games;
 System.out.println("Stats: \nWins " + wins + "\nLosses " + losses + "\nWin Rate %" + winpercent + ".");
 // calculates win rate and prints the players stats at the end of the game
     
-    
+    scanner1.close();
     
     
     }
