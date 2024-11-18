@@ -64,9 +64,11 @@ public class MyProgram
         again=scanner1.nextLine();
         if (again.equalsIgnoreCase("y")){
             playagain=true;
+            System.out.print("\033[H\033[2J"); System.out.flush(); 
         }
         else {
             playagain=false;
+            System.out.print("\033[H\033[2J"); System.out.flush(); 
     }
     // determines if the player wants to play again which will restart the loop
     }
